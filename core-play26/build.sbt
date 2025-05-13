@@ -49,8 +49,8 @@ pomIncludeRepository := { _ => false }
 
 pomExtra := (
   <scm>
-    <url>git@github.com:adrianhurt/play-bootstrap.git</url>
-    <connection>scm:git:git@github.com:adrianhurt/play-bootstrap.git</connection>
+    <url>git@github.com:playframework/play-bootstrap.git</url>
+    <connection>scm:git:git@github.com:playframework/play-bootstrap.git</connection>
   </scm>
   <developers>
     <developer>
