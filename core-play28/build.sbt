@@ -42,7 +42,7 @@ sonatypeProjectHosting := Some(GitHubHosting("adrianhurt", "play-bootstrap", "ad
 
 homepage := Some(url("http://playframework.github.io/play-bootstrap"))
 
-licenses := Seq("Apache License" -> url("https://github.com/adrianhurt/play-bootstrap/blob/master/LICENSE"))
+licenses := Seq("Apache License" -> url("https://github.com/playframework/play-bootstrap/blob/master/LICENSE"))
 
 startYear := Some(2014)
 

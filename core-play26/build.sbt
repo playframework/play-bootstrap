@@ -31,7 +31,7 @@ description := "This is a collection of input helpers and field constructors for
 
 homepage := Some(url("http://playframework.github.io/play-bootstrap"))
 
-licenses := Seq("Apache License" -> url("https://github.com/adrianhurt/play-bootstrap/blob/master/LICENSE"))
+licenses := Seq("Apache License" -> url("https://github.com/playframework/play-bootstrap/blob/master/LICENSE"))
 
 startYear := Some(2014)
 
@@ -56,7 +56,7 @@ pomExtra := (
     <developer>
       <id>adrianhurt</id>
       <name>Adrian Hurtado</name>
-      <url>https://github.com/adrianhurt</url>
+      <url>https://github.com/playframework</url>
     </developer>
   </developers>
 )
