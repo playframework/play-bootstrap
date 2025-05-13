@@ -396,8 +396,3 @@ $sidebar-active-color: $nav-bg-color;
   .bd-sublinks { display: none; }
   .nav-link.active + .bd-sublinks { display: inherit; }
 }
-
-
-body > .navbar {
-	padding-right: 60px !important;
-}
