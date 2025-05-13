@@ -20,7 +20,7 @@ tab: extendit
   <h2 id="create-helper">Create your own helper</h2>
   <p>
     To create a helper is very easy. You only have to look the helpers within the
-    <a href="https://github.com/adrianhurt/play-bootstrap" target="_blank">Github repository</a>. Let's suppose you want to add an input group for every email input. And you would like to create your own email helper like this one:
+    <a href="https://github.com/playframework/play-bootstrap" target="_blank">Github repository</a>. Let's suppose you want to add an input group for every email input. And you would like to create your own email helper like this one:
   </p>
   <div class="bs-example">
     <div class="form-group  " id="foo_field">
@@ -45,7 +45,7 @@ tab: extendit
   </div>
   <p>
     The code is a reduced version of <code>b3.inputWrapped</code> adapted to this purpose (you can see it
-    <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/inputWrapped.scala.html" target="_blank">here</a>). The library is very easy and it's documented, so you can check it to understand how it works. The main concept is that <code>b3.inputFormGroup</code> will generate the whole <code>form-group</code>. For that it needs the field, some arguments and a function that returns the input HTML with the field information. All that field information is stored in a <code>B3FieldInfo</code>.
+    <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/inputWrapped.scala.html" target="_blank">here</a>). The library is very easy and it's documented, so you can check it to understand how it works. The main concept is that <code>b3.inputFormGroup</code> will generate the whole <code>form-group</code>. For that it needs the field, some arguments and a function that returns the input HTML with the field information. All that field information is stored in a <code>B3FieldInfo</code>.
   </p>
   <p>
     And that's all! All you need now is to call it from your templates:
@@ -160,10 +160,10 @@ tab: extendit
 </div>
 <p>
   We are going to make it easy. Let's going to copy the files for the vertical field constructor and modify them. You can see the files
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical" target="_blank">here</a>. So create a folder <code>views/b3/my/vertical</code> and copy there the files
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/bsFieldConstructor.scala.html" target="_blank">bsFieldConstructor.scala.html</a>,
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/bsFormGroup.scala.html" target="_blank">bsFormGroup.scala.html</a> and
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/package.scala" target="_blank">package.scala</a>.
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical" target="_blank">here</a>. So create a folder <code>views/b3/my/vertical</code> and copy there the files
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/bsFieldConstructor.scala.html" target="_blank">bsFieldConstructor.scala.html</a>,
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/bsFormGroup.scala.html" target="_blank">bsFormGroup.scala.html</a> and
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/app/views/b3/vertical/package.scala" target="_blank">package.scala</a>.
 </p>
 <p>
   Modify <code>bsFieldConstructor.scala.html</code> and <code>bsFormGroup.scala.html</code> to get the functionality you want. For this example, the first one would be re-written to something like this:
@@ -199,8 +199,8 @@ tab: extendit
 </div>
 <p>
   Do the same with <code>bsFormGroup.scala.html</code>. You can check them at the Github repository here:
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/bsFieldConstructor.scala.html" target="_blank">bsFieldConstructor.scala.html</a> and
-  <a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/bsFormGroup.scala.html" target="_blank">bsFormGroup.scala.html</a>.
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/bsFieldConstructor.scala.html" target="_blank">bsFieldConstructor.scala.html</a> and
+  <a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/bsFormGroup.scala.html" target="_blank">bsFormGroup.scala.html</a>.
 </p>
 <p>
   Finally, the modifications for this examples to <code>package.scala</code> are minimal:
@@ -214,7 +214,7 @@ tab: extendit
   </li>
 </ul>
 You can check the code
-<a href="https://github.com/adrianhurt/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/package.scala" target="_blank">here</a>.
+<a href="https://github.com/playframework/play-bootstrap/blob/master/play25-bootstrap3/module/sample/app/views/b3/my/vertical/package.scala" target="_blank">here</a>.
 <p></p>
 <p>
   And that's all, you now can use your own field constructor as any other with:
