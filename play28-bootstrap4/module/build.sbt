@@ -40,11 +40,11 @@ organization := "com.adrianhurt"
 description := "This is a collection of input helpers and field constructors for Play Framework to render Bootstrap HTML code."
 
 import xerial.sbt.Sonatype._
-sonatypeProjectHosting := Some(GitHubHosting("adrianhurt", "play-bootstrap", "adrianhurt@gmail.com"))
+sonatypeProjectHosting := Some(GitHubHosting("playframework", "play-bootstrap", "contact@playframework.com"))
 
-homepage := Some(url("https://adrianhurt.github.io/play-bootstrap"))
+homepage := Some(url("https://playframework.github.io/play-bootstrap"))
 
-licenses := Seq("Apache License" -> url("https://github.com/adrianhurt/play-bootstrap/blob/master/LICENSE"))
+licenses := Seq("Apache License" -> url("https://github.com/playframework/play-bootstrap/blob/master/LICENSE"))
 
 startYear := Some(2014)
 

@@ -29,9 +29,9 @@ organization := "com.adrianhurt"
 
 description := "This is a collection of input helpers and field constructors for Play Framework to render Bootstrap HTML code."
 
-homepage := Some(url("http://adrianhurt.github.io/play-bootstrap"))
+homepage := Some(url("http://playframework.github.io/play-bootstrap"))
 
-licenses := Seq("Apache License" -> url("https://github.com/adrianhurt/play-bootstrap/blob/master/LICENSE"))
+licenses := Seq("Apache License" -> url("https://github.com/playframework/play-bootstrap/blob/master/LICENSE"))
 
 startYear := Some(2014)
 
@@ -49,14 +49,14 @@ pomIncludeRepository := { _ => false }
 
 pomExtra := (
   <scm>
-    <url>git@github.com:adrianhurt/play-bootstrap.git</url>
-    <connection>scm:git:git@github.com:adrianhurt/play-bootstrap.git</connection>
+    <url>git@github.com:playframework/play-bootstrap.git</url>
+    <connection>scm:git:git@github.com:playframework/play-bootstrap.git</connection>
   </scm>
   <developers>
     <developer>
-      <id>adrianhurt</id>
-      <name>Adrian Hurtado</name>
-      <url>https://github.com/adrianhurt</url>
+      <id>playframework</id>
+      <name>Play Framework Contributors</name>
+      <url>https://github.com/playframework</url>
     </developer>
   </developers>
 )

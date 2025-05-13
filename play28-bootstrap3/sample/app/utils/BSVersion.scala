@@ -26,7 +26,7 @@ object BSVersion {
 
   final val repositoryBase = s"master/play$play_shortcode-bootstrap$bootstrap_code/module"
 
-  final val repository = "https://github.com/adrianhurt/play-bootstrap"
+  final val repository = "https://github.com/playframework/play-bootstrap"
   def repositoryPath(path: String) = s"$repository/$path"
   def repositoryFile(file: String) = s"$repository/blob/$repositoryBase/$file"
   def repositoryFolder(folder: String) = s"$repository/tree/$repositoryBase/$folder"
