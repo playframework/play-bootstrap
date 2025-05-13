@@ -54,8 +54,8 @@ pomExtra := (
   </scm>
   <developers>
     <developer>
-      <id>adrianhurt</id>
-      <name>Adrian Hurtado</name>
+      <id>playframework</id>
+      <name>Play Framework Contributors</name>
       <url>https://github.com/playframework</url>
     </developer>
   </developers>
