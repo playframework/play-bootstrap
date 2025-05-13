@@ -14,7 +14,7 @@ GET		/extend-it				controllers.Application.extendIt
 GET		/docs							controllers.Application.docs
 
 
-GET		/changelog				controllers.Default.redirect(to = "http://adrianhurt.github.io/play-bootstrap/changelog")
+GET		/changelog				controllers.Default.redirect(to = "http://playframework.github.io/play-bootstrap/changelog")
 
 
 # Map static resources from the /public folder to the /assets URL path

@@ -29,7 +29,7 @@ organization := "com.adrianhurt"
 
 description := "This is a collection of input helpers and field constructors for Play Framework to render Bootstrap HTML code."
 
-homepage := Some(url("http://adrianhurt.github.io/play-bootstrap"))
+homepage := Some(url("http://playframework.github.io/play-bootstrap"))
 
 licenses := Seq("Apache License" -> url("https://github.com/adrianhurt/play-bootstrap/blob/master/LICENSE"))
 
